@@ -9,7 +9,7 @@ def factorial(number):
 
 def bionomials(number_1, number_2=2):
     sum = 1
-    for i in range(1, number_1):
+    for i in range(1, number_1+1):
         sum += (factorial(number_1)*math.pow(number_2, i))/factorial(i)
         return sum
 
